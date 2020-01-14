@@ -1,0 +1,20 @@
+{
+  "name": "styleguide-editorial",
+  "version": "0.0.1",
+  "description": "Writing (Editorial) Style Guide",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:lint:": "remark --no-stdout . docs/ .github/"
+  },
+  "repository": "git@github.com:ocular-d/styleguide-editorial.git",
+  "author": "sven <sven@so36.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "remark-preset-lint-ocular-d": "^0.0.2",
+    "vuepress": "^1.2.0"
+  },
+  "peerDependencies": {
+    "remark-cli": "^7.0.1"
+  }
+}
