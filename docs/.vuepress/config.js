@@ -20,7 +20,8 @@ module.exports = {
         'pronouns-and-gender',
         'bias-free',
         'periods',
-        'we'
+        'we',
+        'names-and-naming'
       ]
     }
   ]

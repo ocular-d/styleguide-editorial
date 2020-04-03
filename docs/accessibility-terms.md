@@ -74,7 +74,7 @@ Hearing-impaired
 Crippled, lame
 ```
 
-```markdwon
+```markdown
 Dumb, mute
 ```
 
@@ -82,15 +82,14 @@ Dumb, mute
 Affected by, stricken with, suffers from, a victim of, an epileptic
 ```
 
-```markdwon
+```markdown
 Normal, able-bodied, healthy
 ```
 
-```markdwon
+```markdown
 Maimed, missing a limb
 ```
 
-```markdwon
+```markdown
 The disabled, disabled people, people with handicaps, the handicapped
 ```
-

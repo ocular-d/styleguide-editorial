@@ -1,4 +1,5 @@
 # Periods
+
 ::: tip Key Point
 :bulb: Don’t use end punctuation in headlines, headings, subheadings, UI titles, UI text, or simple lists (three or fewer words per item).
 :::
