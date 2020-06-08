@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "remark-preset-lint-ocular-d": "^0.0.2",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.4.0"
   },
   "peerDependencies": {
     "remark-cli": "^7.0.1"

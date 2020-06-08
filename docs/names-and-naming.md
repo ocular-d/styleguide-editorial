@@ -1,7 +1,7 @@
 # Names And Naming
 
 ::: tip Key Point
-Naming guidelines
+:bulb: Naming guidelines
 :::
 
 ## Directories And Filenames

@@ -16,11 +16,12 @@ module.exports = {
       collapsable: false,
       children: [
         'accessibility-terms',
-	      'use-simple-words-concise-sentences',
+        'use-simple-words-concise-sentences',
         'pronouns-and-gender',
         'bias-free',
         'periods',
         'we',
+        'chapter-and-section',
         'names-and-naming'
       ]
     }
