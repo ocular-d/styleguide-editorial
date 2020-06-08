@@ -1,10 +1,10 @@
-# Names And Naming
+# Names and naming
 
 ::: tip Key Point
 :bulb: Naming guidelines
 :::
 
-## Directories And Filenames
+## Directories and filenames
 
 Make file and directory names lowercase.
 Separate words with hyphens, not underscores.
@@ -19,7 +19,7 @@ Use only standard ASCII alphanumeric characters in file and directory names.
 
 `my_awesomefile.md`
 
-## File Types
+## File types
 
 When you're discussing a file type, use the formal name of the type.
 
