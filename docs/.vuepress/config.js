@@ -22,6 +22,7 @@ module.exports = {
         'periods',
         'we',
         'chapter-and-section',
+        'headings',
         'names-and-naming'
       ]
     }
