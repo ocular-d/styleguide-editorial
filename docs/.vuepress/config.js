@@ -15,6 +15,7 @@ module.exports = {
       title: 'Guidelines',
       collapsable: false,
       children: [
+        'alt-text',
         'accessibility-terms',
         'use-simple-words-concise-sentences',
         'pronouns-and-gender',
