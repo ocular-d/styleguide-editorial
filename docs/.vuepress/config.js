@@ -25,6 +25,7 @@ module.exports = {
         'chapter-and-section',
         'headings',
         'names-and-naming',
+        'numbers',
         'screenshots'
       ]
     }
