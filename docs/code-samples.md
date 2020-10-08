@@ -20,12 +20,12 @@ Always follow the code sample with a list where you describe the placeholder val
 
 1. Customize your account settings by adding this code to `example.py`.
 
-```python
+```python {6}
 import asyncio
 import aiohttp
 import json
 
-URL: myurl.com,
+URL: myurl.com
 ACCOUNT: ACCOUNT_ID
 ```
 
@@ -42,7 +42,7 @@ import asyncio
 import aiohttp
 import json
 
-URL: myurl.com,
+URL: myurl.com
 ACCOUNT: ACCOUNT_ID
 ```
 
@@ -66,7 +66,7 @@ import asyncio
 import aiohttp
 import json
 
-URL: myurl.com,
+URL: myurl.com
 ACCOUNT: ACCOUNT_ID
 ```
 
