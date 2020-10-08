@@ -24,7 +24,8 @@ module.exports = {
         'we',
         'chapter-and-section',
         'headings',
-        'names-and-naming',
+        'text-style-formatting',
+        'code-samples',
         'numbers',
         'screenshots'
       ]
