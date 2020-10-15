@@ -1,4 +1,4 @@
-## Code samples
+# Code
 
 ::: tip Key Point
 :bulb: Learn how to write usable code samples and how to complement them with useful information.
@@ -8,7 +8,7 @@
 For more information on how to deal with code using Markdown, see the [Markdown Styleguide](https://ocular-d.github.io/styleguide-markdown/code.html "Link to ocular-d Markdown Styleguide").
 :::
 
-## Best practices
+## Good practices
 
 When providing code samples, highlight lines that are relevant for the user.
 
@@ -77,3 +77,37 @@ Replace `$ACCOUNT_ID` with the ID of your account.
 Replace `ACCOUNT-ID` with the ID of your account.
 
 Replace `{ACCOUNTID}` with the ID of your account.
+
+## Python
+
+### Virtual environment
+
+If you use [venv](https://docs.python.org/3/library/venv.html#module-venv "Link to venv library") for code examples make sure
+to *deactivate* or even better "call" the right Python interpreter during "run".
+
+**:thumbsup: Correct**
+
+```shell {5}
+mkdir FOOBAR && cd FOOBAR
+python3 -m venv
+source ./venv/bin/activate
+pip install aiohttp
+deactivate
+```
+
+```shell
+mkdir FOOBAR && cd FOOBAR
+python3 -m venv
+./venv/bin/pip install aiohttp
+```
+
+**:thumbsdown: Don't use**
+
+```shell
+mkdir FOOBAR && cd FOOBAR
+python3 -m venv
+source ./venv/bin/activate
+pip install aiohttp
+```
+
+
