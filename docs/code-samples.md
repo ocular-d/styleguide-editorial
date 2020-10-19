@@ -55,7 +55,7 @@ Where:
 Make placeholder text meaningful by referring to what the user is expected to enter.
 Make it all caps and separate words with underscores.
 
-When the placeholder text is in a paragraph, format it as inline code and make it italic.
+When the placeholder text is in a paragraph, format it as inline code and make it *italic*.
 
 When in a code block, use line highlighting to point the reader to lines that have placeholder text.
 
@@ -69,6 +69,10 @@ import json
 URL: myurl.com
 ACCOUNT: ACCOUNT_ID
 ```
+
+Where:
+
+- *`ACCOUNT_ID`* is the ID of your account
 
 **:thumbsdown: Don't use**
 
