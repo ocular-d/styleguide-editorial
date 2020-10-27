@@ -21,7 +21,7 @@ Use three admonition types: Notes, Warnings, and Best Practices.
 
 ## Tip
 
-Also known as "best practice", it conveys the possibility to enhance the user experience by implementing the recommendations it contains.
+Also known as "best practice" or "hint", it conveys the possibility to enhance the user experience by implementing the recommendations it contains.
 
 :::tip Tip
 This is a "tip" admonition, use it to give recommendations and best practices that will enhance the user experience.
@@ -29,7 +29,7 @@ This is a "tip" admonition, use it to give recommendations and best practices th
 
 ## Info
 
-Also known as "note" it contains generic contextual and additional info about requirements and technical limitations.
+Also known as "note" or “notice”, it contains generic contextual and additional info about requirements and technical limitations.
 It also conveys the possibility of soft errors when the recommendations contained are not followed.
 
 :::warning Info
@@ -38,7 +38,7 @@ This is a "info" admonition. Use it to give information about limitations, addit
 
 ## Warning
 
-Also known as "danger", it alerts the reader about the possibility of fatal errors, human damage, and consecquent liability if caution is not used or if the recommendations contained are not followed.
+Also known as "danger", “alert” or “caution”, it alerts the reader about the possibility of fatal errors, human damage, and consecquent liability if caution is not used or if the recommendations contained are not followed.
 
 :::danger Warning
 This is a "warning" admonition. Use it to warn the user about possible fatal errors and possibility of service disruption.
