@@ -17,6 +17,7 @@ module.exports = {
       children: [
         'alt-text',
         'accessibility-terms',
+        'admonitions',
         'use-simple-words-concise-sentences',
         'pronouns-and-gender',
         'bias-free',
