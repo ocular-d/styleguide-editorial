@@ -28,6 +28,7 @@ module.exports = {
         'pronouns-and-gender',
         'screenshots',
         'text-style-formatting',
+        'urls-links'
         'we',
       ]
     }
