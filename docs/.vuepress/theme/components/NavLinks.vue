@@ -38,6 +38,7 @@ import DropdownLink from '@parent-theme/components/DropdownLink.vue'
 //import DropdownLink from '@theme/components/DropdownLink.vue'
 import { resolveNavLinkItem } from '@parent-theme/util'
 import NavLink from '@parent-theme/components/NavLink.vue'
+import '../../styles/pallete.styl'
 
 export default {
   name: 'NavLinks',
@@ -128,9 +129,9 @@ export default {
   display inline-block
   a
     line-height 1.4rem
-    color inherit
+    color #5469d4
     &:hover, &.router-link-active
-      color $accentColor
+      color #5469d4
   .nav-item
     position relative
     display inline-block

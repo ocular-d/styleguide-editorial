@@ -44,6 +44,7 @@ import SidebarButton from '@parent-theme/components/SidebarButton.vue'
 import NavLinks from '@parent-theme/components/NavLinks.vue'
 //import NavLinks from '@theme/components/NavLinks.vue'
 
+
 export default {
   name: 'Navbar',
 
@@ -111,12 +112,12 @@ $navbar-horizontal-padding = 1.5rem
   .site-name
     font-size 1.3rem
     font-weight 600
-    color $textColor
+    color #5469d4
     position relative
   .links
     padding-left 1.5rem
     box-sizing border-box
-    background-color #369722
+    background-color #fff
     white-space nowrap
     font-size 0.9rem
     position absolute
