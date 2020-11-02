@@ -22,13 +22,13 @@ module.exports = {
         'chapter-and-section',
         'code-samples',
         'headings',
+        'links-urls',
         'numbers',
         'use-simple-words-concise-sentences',
         'periods',
         'pronouns-and-gender',
         'screenshots',
         'text-style-formatting',
-        'urls-links'
         'we',
       ]
     }
