@@ -38,7 +38,7 @@ import DropdownLink from '@parent-theme/components/DropdownLink.vue'
 //import DropdownLink from '@theme/components/DropdownLink.vue'
 import { resolveNavLinkItem } from '@parent-theme/util'
 import NavLink from '@parent-theme/components/NavLink.vue'
-import '../../styles/pallete.styl'
+import '../../styles/palette.styl'
 
 export default {
   name: 'NavLinks',
