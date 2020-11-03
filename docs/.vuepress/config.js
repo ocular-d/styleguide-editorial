@@ -6,6 +6,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
   themeConfig: {
+    searchPlaceholder: 'Search...',
     lastUpdated: 'Last Updated',
     repo: 'ocular-d/styleguide-editorial',
     docsDir: 'docs',
