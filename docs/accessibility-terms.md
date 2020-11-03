@@ -1,10 +1,21 @@
-# Accessibility terms
+---
+title: Accessibility terms
+description: Write in a way that puts people first by using the phrase person with or person who
+meta:
+  - name: "og:description"
+    content: Accessibility guide
+  - name: keywords
+    content: Write in a way that puts people first
+tags:
+  - Accessibility
+  - People
+---
 
-::: tip Key Point
-:bulb: Write in a way that puts people first by using the phrase person with or person who. 
-:::
+<Header/>
 
-Don’t use language that defines people by their disability, such as disabled, impaired, and the deaf.
+---
+
+Don’t use language that defines people by their disability, such as disabled, impaired, and the deaf.<br>
 A person might have a visual impairment, but that person isn’t impaired.
 
 ## Examples
