@@ -5,6 +5,9 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
+  plugins: [
+    ['vuepress-plugin-right-anchor']
+  ],
   themeConfig: {
     searchPlaceholder: 'Search...',
     lastUpdated: 'Last Updated',
