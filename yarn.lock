@@ -9047,6 +9047,13 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
+vuepress-plugin-anchor-toc@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-anchor-toc/-/vuepress-plugin-anchor-toc-0.0.1.tgz#3a738f1184f9c1d6df96cd016dbf0333b5fa648b"
+  integrity sha512-veX7WLQFHMqQskMLmphAb4ZiZqRj4n+WoG+YkcPzTSWB09srKrNry7GN7wWBCY0cxREe+aV7YzbySUhXgpzbKA==
+  dependencies:
+    lodash.debounce "^4.0.8"
+
 vuepress-plugin-container@^2.0.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-container/-/vuepress-plugin-container-2.1.2.tgz#688c1e5a9709a1b8658605bcaee580b3abb19d16"
