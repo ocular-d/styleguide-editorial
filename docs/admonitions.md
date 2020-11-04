@@ -1,6 +1,6 @@
 ---
 title: Admonitions
-description: Use admonitions to capture the reader’s attention
+description: Use admonitions to capture the reader’s attention.
 meta:
   - name: "og:description"
     content: Admonitions
@@ -17,6 +17,7 @@ tags:
 
 Admonitions stand out from the main body of text to capture the reader’s attention on something important.
 For their nature, they break the reading flow and are perceived as a distraction by readers.
+
 This is why they should be used only when it is necessary.
 
 **Do not overuse admonitions**.<br>

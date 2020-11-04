@@ -1,6 +1,6 @@
 ---
 title: Bias-free communication
-description: Use gender-neutral alternatives for common terms
+description: Use gender-neutral alternatives for common terms.
 meta:
   - name: "og:description"
     content: Use gender-neutral alternatives for common terms

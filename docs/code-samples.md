@@ -1,6 +1,6 @@
 ---
 title: Code
-description: How to write usable code samples and how to complement them with useful information
+description: How to write usable code samples and how to complement them with useful information.
 meta:
   - name: "og:description"
     content: How to write usable code samples and how to complement them with useful information

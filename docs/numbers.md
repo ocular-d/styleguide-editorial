@@ -1,6 +1,6 @@
 ---
 title: Using Numbers in Documents
-description: How to use numbers
+description: How to use numbers.
 meta:
   - name: "og:description"
     content: How to use numbers

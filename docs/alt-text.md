@@ -1,6 +1,6 @@
 ---
 title: Alt Text And Image Descriptions
-description: ALt Text - and why it it matters
+description: ALt Text - and why it it matters.
 meta:
   - name: "og:description"
     content: AlT Text - Image Descriptions
@@ -18,6 +18,7 @@ tags:
 
 
 [Alt text is an essential tool](https://aceseditors.org/news/2020/how-to-write-great-alt-text-and-why-it-matters) that makes your content accessible and comprehensible to readers who have visual impairments.
+
 It ensures that those readers get the same benefit from photos, charts, and other visuals that fully sighted readers get.
 
 ## Quick List
