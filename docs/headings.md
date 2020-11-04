@@ -1,9 +1,19 @@
-# Headings
+---
+title: Headings
+description: Use short and understandable headings
+meta:
+  - name: "og:description"
+    content: Use short and understandable headings
+  - name: keywords
+    content: Use short and understandable headings
+tags:
+  - headings
+  - short
+---
 
-::: tip Key Point
-:bulb: Always use short and understandable headings.
-:::
+<Header/>
 
+---
 
 ## Sentences case
 

@@ -1,8 +1,19 @@
-# Periods
+---
+title: Periods
+description: Don’t use end punctuation in headlines, headings, subheadings, UI titles, UI text, or simple lists (three or fewer words per item)
+meta:
+  - name: "og:description"
+    content: Don’t use end punctuation in headlines, headings, subheadings, UI titles, UI text, or simple lists (three or fewer words per item)
+  - name: keywords
+    content: Don’t use end punctuation in headlines, headings, subheadings, UI titles, UI text, or simple lists (three or fewer words per item)
+tags:
+  - Periods
+  - content
+---
 
-::: tip Key Point
-:bulb: Don’t use end punctuation in headlines, headings, subheadings, UI titles, UI text, or simple lists (three or fewer words per item).
-:::
+<Header/>
+
+---
 
 End all sentences with a period, even if they're only two words. Put one space, not two, after a period.
 

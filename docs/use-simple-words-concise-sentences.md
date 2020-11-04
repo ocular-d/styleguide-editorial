@@ -1,8 +1,21 @@
-# Use simple words, concise sentences
+---
+title: Text style and formatting
+description: Concise, clear sentences save space, are easy to understand, and facilitate scanning.
+meta:
+  - name: "og:description"
+    content: Concise, clear sentences save space, are easy to understand, and facilitate scanning
+  - name: keywords
+    content: Concise, clear sentences save space, are easy to understand, and facilitate scanning
+tags:
+  - words
+  - consistency
+  - sentences
+  - clear
+---
 
-::: tip Key Point
-:bulb: Concise, clear sentences save space, are easy to understand, and facilitate scanning.
-:::
+<Header/>
+
+---
 
 Use words with precise meanings, and remove words that don’t add substance.
 Use your judgment to avoid sounding abrupt or unfriendly.

@@ -1,8 +1,19 @@
-# Screenshot Guidelines
+---
+title: Screenshots
+description: When and how to use screenshots.
+meta:
+  - name: "og:description"
+    content: When and how to use screenshots.
+  - name: keywords
+    content: When and how to use screenshots.
+tags:
+  - screenshots
+  - media
+---
 
-::: tip Key Point
-:bulb: When and how to use screenshots
-:::
+<Header/>
+
+---
 
 ## When
 

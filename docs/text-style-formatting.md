@@ -1,8 +1,20 @@
-# Text style and formatting
+---
+title: Text style and formatting
+description: Learn how to format names and other types of non-standard text.
+meta:
+  - name: "og:description"
+    content: Learn how to format names and other types of non-standard text
+  - name: keywords
+    content: Learn how to format names and other types of non-standard text
+tags:
+  - style
+  - text
+  - formatting
+---
 
-::: tip Key Point
-:bulb: Learn how to format names and other types of non-standard text
-:::
+<Header/>
+
+---
 
 ::: warning Note
  For more information about how to deal with code samples, check the [Code samples](./code-samples.md "Link to Code Samples") section.

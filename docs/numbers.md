@@ -1,8 +1,19 @@
-# Using Numbers in Documents
+---
+title: Using Numbers in Documents
+description: How to use numbers
+meta:
+  - name: "og:description"
+    content: How to use numbers
+  - name: keywords
+    content: How to use numbers
+tags:
+  - numbers
+  - documents
+---
 
-::: tip Key Point
-:bulb: How to use numbers
-:::
+<Header/>
+
+---
 
 ::: tip Note
 This is a adjusted copy!
