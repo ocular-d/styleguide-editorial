@@ -1,8 +1,21 @@
-# Code
+---
+title: Code
+description: How to write usable code samples and how to complement them with useful information
+meta:
+  - name: "og:description"
+    content: How to write usable code samples and how to complement them with useful information
+  - name: keywords
+    content: How to write usable code samples and how to complement them with useful information
+tags:
+  - code
+  - sample
+  - example
+---
 
-::: tip Key Point
-:bulb: Learn how to write usable code samples and how to complement them with useful information.
-:::
+<Header/>
+
+---
+
 
 ::: warning Note
 For more information on how to deal with code using Markdown, see the [Markdown Styleguide](https://ocular-d.github.io/styleguide-markdown/code.html "Link to ocular-d Markdown Styleguide").

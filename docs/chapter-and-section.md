@@ -1,8 +1,20 @@
-# Chapter and sections
+---
+title: Chapter and sections
+description: How to use chapter and sections to structure documents
+meta:
+  - name: "og:description"
+    content: How to use chapter and sections to structure documents
+  - name: keywords
+    content: How to use chapter and sections to structure documents
+tags:
+  - content
+  - chapter
+  - sections
+---
 
-::: tip Key Point
-:bulb: How to use chapter and sections to structure documents.
-:::
+<Header/>
+
+---
 
 ## Chapter
 

@@ -40,3 +40,16 @@
     box-sizing: border-box;
     border-bottom: 1px solid #e3e8ee;
 }
+
+div[class*="language-"] .highlight-lines .highlighted {
+    background-color: #023A7C;
+}
+
+
+div[class*="language-"].line-numbers-mode .highlight-lines .highlighted:before {
+  background-color: #023A7C;
+}
+
+div[class*="language-"].line-numbers-mode::after {
+  border-right: 1px solid rgba(255,255,255,0.3);
+}

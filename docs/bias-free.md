@@ -1,8 +1,20 @@
-# Bias-free communication
+---
+title: Bias-free communication
+description: Use gender-neutral alternatives for common terms
+meta:
+  - name: "og:description"
+    content: Use gender-neutral alternatives for common terms
+  - name: keywords
+    content: Use gender-neutral alternatives for common terms
+tags:
+  - gender
+  - alternatives
+  - bias-free
+---
 
-::: tip Key Point
-:bulb: Use gender-neutral alternatives for common terms
-:::
+<Header/>
+
+---
 
 | :thumbsup: Use this         | :thumbsdown: Not this   |
 |-----------------------------|-------------------------|

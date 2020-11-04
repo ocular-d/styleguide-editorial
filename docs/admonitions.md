@@ -8,8 +8,6 @@ meta:
     content: Admonitions
 tags:
   - Admonitions
-  - Image
-  - Descriptions
 ---
 
 <Header/>
