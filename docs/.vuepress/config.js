@@ -19,17 +19,18 @@ module.exports = {
         'alt-text',
         'accessibility-terms',
         'admonitions',
-        'use-simple-words-concise-sentences',
-        'pronouns-and-gender',
         'bias-free',
-        'periods',
-        'we',
         'chapter-and-section',
-        'headings',
-        'text-style-formatting',
         'code-samples',
+        'headings',
+        'links-urls',
         'numbers',
-        'screenshots'
+        'use-simple-words-concise-sentences',
+        'periods',
+        'pronouns-and-gender',
+        'screenshots',
+        'text-style-formatting',
+        'we',
       ]
     }
   ]
