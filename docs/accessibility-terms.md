@@ -34,7 +34,8 @@ Person with autism
 
 Person of small stature
 
-To learn more about writing that conveys respect to all people and promotes equal opportunities, see the [Guidelines for Inclusive Language](http://www.linguisticsociety.org/content/guidelines-inclusive-language "Link to Linguistic Society") from the Linguistic Society of America.
+To learn more about writing that conveys respect to all people and promotes equal opportunities,
+see the [Guidelines for Inclusive Language](http://www.linguisticsociety.org/content/guidelines-inclusive-language "Link to Linguistic Society") from the Linguistic Society of America.
 
 ---
 

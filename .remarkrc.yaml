@@ -1,0 +1,12 @@
+plugins:
+  # Customized settings
+  lint-list-item-indent: space
+  lint-maximum-line-length: 220
+  lint-no-shell-dollars: true
+  lint-no-duplicate-headings: false
+  lint-maximum-heading-length: 60
+  lint-heading-style: false
+  lint-no-tabs: false
+  lint-table-pipe-alignment: false
+  lint-no-undefined-references: false
+  lint-table-cell-padding: false

@@ -100,7 +100,8 @@ In examples that refer to several regions, use equivalent references—for examp
 For example, talk about readers who are blind or have low vision and customers with limited dexterity.
 Don't use words that imply pity, such as *stricken with* or *suffering from.*
 Don't mention a disability unless it's relevant.
-For more information, see the [Accessibility term collection](~/a-z-word-list-term-collections/term-collections/accessibility-terms.md). 
+For more information, see the [Accessibility term collection](~/a-z-word-list-term-collections/term-collections/accessibility-terms.md).
 
 **Learn more**
-For more information about writing that conveys respect to all people and promotes equal opportunities, see the [Guidelines for Inclusive Language](http://www.linguisticsociety.org/content/guidelines-inclusive-language "Linguistic Society of America's guidelines for inclusive language") from the Linguistic Society of America.
+For more information about writing that conveys respect to all people and promotes equal opportunities,
+see the [Guidelines for Inclusive Language](http://www.linguisticsociety.org/content/guidelines-inclusive-language "Guidelines for inclusive language") from the Linguistic Society of America.

@@ -24,7 +24,10 @@ An exhaustive list of use cases for the code font is available in the [Google De
 
 ## Paths and directories
 
-Use the inline code style for paths and directories. Make them lowercase and use forward slashes (/) where applicable. When possible, separate words in a path or directory using hyphens. Otherwise, follow the original separator.
+Use the inline code style for paths and directories.
+Make them lowercase and use forward slashes (/) where applicable.
+When possible, separate words in a path or directory using hyphens.
+Otherwise, follow the original separator.
 
 **:thumbsup: Correct**
 
@@ -36,7 +39,8 @@ Use the inline code style for paths and directories. Make them lowercase and use
 
 ## File names
 
-When possible, write file names lowercase and use hypens to separate words instead of underscores. Otherwise, follow the original capitalization of the file.
+When possible, write file names lowercase and use hypens to separate words instead of underscores.
+Otherwise, follow the original capitalization of the file.
 
 Use only standard ASCII alphanumeric characters in file and directory names.
 
@@ -50,7 +54,10 @@ Use only standard ASCII alphanumeric characters in file and directory names.
 
 ## File types
 
-When referring to a file type, use the common name of the file type, or its condensed name, all caps. Avoid referring to the file type using its extension. Don't use special formatting for file types.
+When referring to a file type, use the common name of the file type, or its condensed name, all caps.
+Avoid referring to the file type using its extension.
+
+Don't use special formatting for file types.
 
 **:thumbsup: Correct**
 
@@ -68,7 +75,8 @@ An `.sh` file
 
 ## HTTP calls
 
-Use inline code when referring to HTTP calls. They're still technical keywords that deserve being treated as ones. This means not creating verbs from them.
+Use inline code when referring to HTTP calls. They're still technical keywords that deserve being treated as ones.
+This means not creating verbs from them.
 
 **:thumbsup: Correct**
 
