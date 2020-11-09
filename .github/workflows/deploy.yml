@@ -23,8 +23,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install
+        working-directory: .
         run: yarn install
-      - name: Test
+      - name: build
+        working-directory: .
         run: yarn docs:build
 
   test:
