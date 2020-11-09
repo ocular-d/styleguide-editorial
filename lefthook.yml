@@ -1,0 +1,7 @@
+# lefthook.yml
+
+pre-commit:
+  commands:
+    remark-lint:
+      glob: "*.{md}" # glob filter for list of files
+      run: remark -qf --no-stdout docs/ {staged_files} # {staged_files} - list of files
