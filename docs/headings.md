@@ -37,8 +37,8 @@ Capitalize the first word of the title, unless it's a proper noun that starts wi
 
 ## Verb tense
 
-Use the imperative form, especially when writing the title of a task. It increases findability.
-In other words, avoid the gerundive form. Users search for "create something", not "creating something".
+Use the imperative form, especially when writing the title of a task, because it increases findability.
+In other words, avoid the gerundive form, because users don't use gerund when searching.
 
 **:thumbsup: Correct** code for this rule:
 
