@@ -3,38 +3,25 @@ name: deploy
 on:
   # Trigger the workflow on push or pull request,
   # but only for the main branch
-  push:
+  #push:
+  #  branches:
+  #    - main
+
+  pull_request:
     branches:
       - main
 
-jobs:
-  build:
-    name: build html
-    strategy:
-      matrix:
-        platform: [ubuntu-latest]
-        node-version: [14]
-    runs-on: ${{ matrix.platform }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v2-beta
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Install
-        working-directory: .
-        run: yarn install
-      - name: build
-        working-directory: .
-        run: yarn docs:build
+    paths:
+      - 'docs/**'
 
-  test:
-    name: test links
+jobs:
+  gh-deploy:
     runs-on: ubuntu-latest
-    needs: build
     steps:
-      - name: linkcheck
-        uses: peter-evans/link-checker@v1.2.2
-        with:
-          args: -d ./docs/.vuepress/dist
+      - uses: actions/checkout@master
+      - uses: testthedocs/github-pages-deploy-action@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          BUILD_DIR: "docs/.vuepress/dist"
+          BUILD_SCRIPT: yarn install && yarn docs:build

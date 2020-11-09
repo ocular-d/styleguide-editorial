@@ -1,6 +1,9 @@
 name: remark
 
-on: [push, pull_request]
+on:
+  push:
+    paths:
+    - 'docs/**'
 
 jobs:
   build-and-test:
