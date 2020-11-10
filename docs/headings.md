@@ -71,7 +71,7 @@ for example a trailing (semi)colon `;:`, period `.`, closing marker `#` or any "
 
 Every header is an introduction to what is about to come next, which is exactly the function of a colon.
 
-Also the header is not a sentence, or at least only a short sentence, so there is not need to add a sentence separator to it.
+The header is not a sentence, or at least only a short sentence, there is no need to add a sentence separator to it.
 
 **:thumbsup: Correct** code for this rule:
 
