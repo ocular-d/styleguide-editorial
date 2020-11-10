@@ -6,6 +6,5 @@ pre-commit:
       glob: "*.{md}" # glob filter for list of files
       run: remark -qf --no-stdout docs/ {staged_files} # {staged_files} - list of files
     check-links:
-      files: git diff --name-only HEAD @{push}
       glob: "*.{md}"
-      run: markdown-link-check {files}
+      run: markdown-link-check {staged_files}
