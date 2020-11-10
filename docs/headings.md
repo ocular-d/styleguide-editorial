@@ -15,20 +15,15 @@ tags:
 
 ---
 
-## Sentences case
+## Use sentence case
 
-Use an upper case letter as the first letter of a header, unless it is a word that always starts with lowercase letters,
-for example proper names or code snippets.
+Capitalize the first word of the title, unless it's a proper noun that starts with lowercase or a code snippet.
 
 **:thumbsup: Correct** code for this rule:
 
 ```markdown
 # The quick brown fox jumps over the lazy dog
-```
 
-Proper names or code snippets:
-
-```markdown
 # React
 
 # `string`
@@ -39,17 +34,33 @@ Proper names or code snippets:
 **:thumbsdown: Incorrect** code for this rule:
 
 ```markdown
+
+# The Quick Brown Fox Jumps Over The Lazy Dog
+
 # summer is hot
-```
 
-Proper names or code snippets:
-
-```markdown
 # react
 
 # `String`
 
 # Init
+```
+
+## Verb tense
+
+Use the imperative form, especially when writing the title of a task, because it increases findability.
+In other words, avoid the gerundive form, because users don't use gerund when searching.
+
+**:thumbsup: Correct** code for this rule:
+
+```markdown
+# Create a dashboard
+```
+
+**:thumbsdown: Incorrect** code for this rule:
+
+```markdown
+# Creating a dashboard
 ```
 
 ## Length
@@ -81,7 +92,7 @@ for example a trailing (semi)colon `;:`, period `.`, closing marker `#` or any "
 
 Every header is an introduction to what is about to come next, which is exactly the function of a colon.
 
-Also the header is not a sentence, or at least only a short sentence, so there is not need to add a sentence separator to it.
+The header is not a sentence, or at least only a short sentence, there is no need to add a sentence separator to it.
 
 **:thumbsup: Correct** code for this rule:
 
