@@ -1,22 +1,24 @@
 ---
-title: Alt Text And Image Descriptions
-description: Alt Text - and why it it matters.
+title: Alt Text in links and images
+description: Alt text is the descriptive text for links to URLs or media. Learn how to do it right.
 meta:
   - name: "og:description"
     content: Alt Text - Image Descriptions
   - name: keywords
-    content: Alt Text - and why it it matters
+    content: Alt text is the descriptive text for links to URLs or media. Learn how to do it right.
 tags:
   - Alt Text
   - Image
   - Descriptions
+  - Alternative text
 ---
 
 <Header/>
 
 ---
 
-[Alt text is an essential tool](https://aceseditors.org/news/2020/how-to-write-great-alt-text-and-why-it-matters) that makes your content accessible and comprehensible to readers who have visual impairments.
+[Alt text is an essential accessibility tool](https://aceseditors.org/news/2020/how-to-write-great-alt-text-and-why-it-matters) for users with visual impariments.
+It's a piece of text that explains the subject of an hyperlink or image so that screen readers can read it to users.
 
 It ensures that those readers get the same benefit from photos, charts, and other visuals that fully sighted readers get.
 
