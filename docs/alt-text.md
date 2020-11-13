@@ -24,6 +24,7 @@ It ensures that those readers get the same benefit from photos, charts, and othe
 
 - Include alt text for links and images
 - Add an [empty alt text](https://www.w3.org/WAI/tutorials/images/decorative/ "Documentation about decorative images on W3C") for decorative images
+- Describe the content of the image instead of using the generic term "image". For example, "Screenshot of" or "Diagram of"
 - Keep alt text to a maximum of 10-15 words
 - If an image is so complicated that requires more than a short description to provide value to readers,
 consider providing a link to an explanatory text
@@ -37,98 +38,78 @@ It should not include assumptions or interpretations of the image or describe su
 
 ## Style tips
 
-- Avoid Saxon Genitive "'s" - For example "Acme Corp's website"
+- Avoid Saxon Genitive "'s" - For example "Acmecorp's website"
 - Use consistent terminology when referring to content.
 For example, don't mix "Article about $" with "Chapter about $"
 - Follow the capitalization of proper names. For example, write "iOS" not "iOs", "venv" not "VENV"
 - Use official names. If the website is called, "Acme Help" don't call it "Acme Support Center"
 - Use sentence case throughout the text unless the first word is a proper noun that is lower caps
 - Don't write "Home Page", just write "website". For example, "Acme website"
+- Introduce anchors with the hashtag symbol (#)
+- Spell anchors in lower caps
+- Replace spaces in anchors with an hyphen (-)
 
 ## Examples
 
-### Links to Acme Corp main website
+You can copy and paste these examples and just replace dummy names. This will ensure consistency.
 
-|Where|What|
----
-|Acme Corp home page|Acme Corp website|
+### Links to your product's main website
 
-Onna Slack connector
-  For connector Overview on onna.com
-List of available connectors
-  For the list of connectors on onna.com
-Onna trial account signup page
-  for the signup form
+|When referring to|Write|
+|-|-|
+|Acmecorp home page|Acmeproduct website|
+|Acmecorp product or feature overview|Acmeproduct Superfeature|
+|Acmecorp list of features|List of available Superfeatures|
+|Acmecorp signup page|Acmeproduct trial account signup page|
 
-Other onna.com subsites
+### Links to other sub-sites of your company
 
-If other subsite, mention.
+|When referring to|Write|
+|-|-|
+|Acmepr subsite home page|Acmecorp Help Center|
+|Specific Acmecorp subsite concept documentation|Acmecorp Help Center documentation about Superfeature|
+|Specific Acmecorp subsite how-to documentation|Acmecorp Help Center documentation on how to Manage Superfeature|
 
-Onna Help Center
-  For Help Center home
-Onna Help Center documentation about X
-  For Help Center concept
-Onna Help Center documentation on how to X
-  For Help Center task
+### Links to your documentation-subsite
 
-Onna Developer Hub
+For example, developers.acmecorp.com.
 
-Onna Developer Hub glossary
-  For glossary article  
-Glossary entry for X
-  For specific glossary entry
-Sample file $filename on GitHub
-  If link says "sample file"
-Sample file on GitHub
-  If link says "$filename"
-Overview article about Onna
-  for about.md
-Onna API explorer
-  for openapi spec
-Sample code for X
-  For snippets
-Article on how to X (try to mimic original title)
-  For how-to articles
-Article about X (try to mimic original title)
-  For reference or concept articles
-$software ($version) download page
-  for link to download page in requirements
-$software documentation page
-  for specific documentation about the requirment
-Requirements file on GitHub
-  for a file that automatically installs requirements in our Repo
-List of requirements for $software
-  for an article that lists requirements
+|When linking to|Write|
+|-|-|
+|Acmecorp subsite definition list|Acmecorp Developer Hub glossary|
+|Acmecorp subsite definition|Glossary definition of supercalifragilisticexpialidocious|
+|sample file on Acmecorp's GitHub mentioning filename|Sample file `samplefile.py` on GitHub|
+|`samplefile` on GitHub|Sample file on GitHub|
+|Generic info about Acmeproduct, such as about.md|Overview article about Acmeproduct|
+|Acmeproduct OpenAPI spec or subsite|Acmeproduct API exporer|
+|Acmefeature code snippet or example|Sample code for Acmefeature|
+|How-to article to achieve X in Acmeproduct|Article on how to create Acmeobject|
+|Concept article about Superfeature|Article about Acmefeature|
+|effortless file in Acmecorp's GitHub repo|Requirements file on GitHub|
 
-Other websites
+### Links to 3rd-party websites
 
-$BRAND website
-$BRAND documentation page
-  For the Documentation home page
-$BRAND documentation about X
-  For specific concept articles
-  For specific API definitions
-$BRAND documentation on how to X
-  For specific how-to articles
-Definition of
-  for wikipedia or dictionary entries
-List of
-  for lists
-Overview of 
-  for an overview
-$PROJECT GitHub page
-  for the home of a GitHub project
-  
-Images
+|When referring to|Write|
+|-|-|
+|Software download page in requirements|Software (version) download page|
+|Software documentation page in requirement|Software (version) documentation page|
+|Listing requirements to make 3rd-party Software work|List of requirements for Software|
+|website home page|Acmecorp2 website|
+|website documentation home page|Acmecorp2 documentation|
+|website concept documentation|Acmecorp2 documentation about Superfeature|
+|website how-to documentation|Acemecorp2 documentation on how to create Superobject|
+|Wikipedia or Dictionary entry|Definition of Superobject on Wikipedia/Dictionary|
+|List of items| List of Superitems on Acmecorp2|
+|Overview of a product or feature|Overview of Superproduct|
+|GitHub home page of 3rd party software|Acmesoftware GitHub page|
 
-screenshot of
-picture of
-portrait of
-diagram of
+### Images
 
-No: "image", because the screen readers already mention when it's an image. (It's in fact read "Link, image, $content")
-
-Anchors
-introduce them with #
-write them lower caps
-replace spaces with -
+|When referring to|Write|
+|-|-|
+|A screenshot|Screenshot of Acmecontent|Acmeevent|
+|A diagram|Diagram of Acmearchitecture|
+|A picture|Picture of Acmepicture|
+|A logo|Logo of Acmecorp|
+|A portrait|Portrait of Acmeview|
+|A painting|Painting of Acmefruitbasket|
