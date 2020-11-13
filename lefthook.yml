@@ -7,4 +7,5 @@ pre-commit:
       run: remark -qf --no-stdout docs/ {staged_files} # {staged_files} - list of files
     check-links:
       glob: "*.{md}"
-      run: markdown-link-check {staged_files}
+      run: ./node_modules/.bin/markdown-link-check {staged_files}
+      #run: markdown-link-check {staged_files}
