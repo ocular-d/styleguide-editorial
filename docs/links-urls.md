@@ -37,15 +37,15 @@ To see the release notes, click [here](https://link.com "Release Notes Section")
 
 When linking to the email address, use the format ***username[at]address.tld*** for the placeholder text to avoid bot detection.
 
-For the link part, use the `mailto:` format and use the "recipient email address" format as alt text.
+For the link part, use the `mailto:` format and use the "Acmecorp Acmeteam email address" format as alt text.
 
 **:thumbsup: Correct**
 
-Write to [support\[at\]domain.tld](mailto:support@domain.tld "Support Team email address") for assistance.
+Write to [support\[at\]domain.tld](mailto:support@domain.tld "Acmecorp Support Team email address") for assistance.
 
 **:thumbsdown: Don't use**
 
-Write to [support@domain.tld](mailto:support@domain.tld "Support Team email address") for assistance.
+Write to [support@domain.tld](mailto:support@domain.tld "Acmecorp Support Team email address") for assistance.
 
 Write to ***support at domain dot tld*** for assistance.
 
