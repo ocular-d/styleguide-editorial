@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Editorial Styleguide',
+  title: 'Editorial Style Guide',
   description: 'Make every word matter',
   base: "/styleguide-editorial/",
   head: [
@@ -12,6 +12,9 @@ module.exports = {
     docsDir: 'docs',
     editLinks: false,
     editLinkText: 'Help us improve this page!',
+    nav: [
+      { text: 'Markdown Style Guide', link: 'https://ocular-d.github.io/styleguide-markdown/' }
+    ],
     sidebar: [{
       title: 'Guidelines',
       collapsable: false,
