@@ -1,6 +1,6 @@
 ---
-title: Using Numbers in Documents
-description: How to use numbers.
+title: Using numbers in documents
+description: How to use numbers
 meta:
   - name: "og:description"
     content: How to use numbers
@@ -27,7 +27,7 @@ Spell out all numbers less than 10.
 
 - *There are three ways to implement this task.*
 
-**:thumbsdown: Don't Use**
+**:thumbsdown: Don't use**
 
 - *There are 3 ways to implement this task.*
 
@@ -38,7 +38,7 @@ Try to avoid having a numeral and a noun denoting a number mixed up in one sente
 If you are adding numbers to a table, use numerals even for numbers 1-9.
 Tables are meant to provide fast access to content for analysis.
 
-## Big Numbers
+## Big numbers
 
 When you are writing big numbers (anything that is larger than a thousand), you can write it either way:
 
@@ -51,7 +51,7 @@ When you write years, no separations are required:
 
 -*This feature was released in 2015.*
 
-## Numbers with Nouns
+## Numbers with nouns
 
 Numbers are often combined with nouns to form complex structures.
 
