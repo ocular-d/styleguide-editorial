@@ -24,7 +24,7 @@ module.exports = {
         'admonitions',
         'bias-free',
         'chapter-and-section',
-        'code-samples',
+        'examples-placeholders',
         'headings',
         'links-urls',
         'numbers',
