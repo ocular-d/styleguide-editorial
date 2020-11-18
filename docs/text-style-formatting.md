@@ -17,7 +17,7 @@ tags:
 ---
 
 ::: warning Note
- For more information about how to deal with code samples, check the [Code samples](./code-samples.md "Link to Code Samples") section.
+ For more information about how to deal with code samples, check the [examples](./examples-placeholders.md "Link to Code Samples") section.
 
 An exhaustive list of use cases for the code font is available in the [Google Dev Style Guide](https://developers.google.com/style/code-in-text "Link to Google Dev Docs Style Guide").
 :::
@@ -75,7 +75,8 @@ An `.sh` file
 
 ## HTTP calls
 
-Use inline code when referring to HTTP calls. They're still technical keywords that deserve being treated as ones.
+Use inline code when referring to HTTP calls.
+They're still technical keywords that deserve being treated as ones.
 This means not creating verbs from them.
 
 **:thumbsup: Correct**

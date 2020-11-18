@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [1.0.2] - [2020-11-17]
 
 - Create expanded section about examples and placeholders, remove old section, update headings in numbers.md
+- Fix link
 
 ## [1.0.2] - [2020-11-13]
 
