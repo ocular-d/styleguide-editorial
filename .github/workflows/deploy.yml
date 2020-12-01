@@ -1,4 +1,4 @@
-name: HTML Build - Linkcheck
+name: Netlify Deploy
 
 on:
   # Trigger the workflow on push or pull request,
@@ -22,11 +22,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - name: install
+    - name: Install
       working-directory: .
       run: yarn install
 
-    - name: build
+    - name: Build
       working-directory: .
       run: yarn docs:build
 

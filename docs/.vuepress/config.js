@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Editorial Style Guide',
   description: 'Make every word matter',
-  base: "/styleguide-editorial/",
+  base: "/",
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
   ],
