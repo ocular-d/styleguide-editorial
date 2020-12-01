@@ -6,7 +6,7 @@
 
 ## About
 
-Writing (Editorial) Style Guide
+[Writing (Editorial) Style Guide](https://editorial.ocular-d.tech/)
 
 A guide to writing style and terminology based on
 
@@ -15,8 +15,6 @@ A guide to writing style and terminology based on
 - [Google](https://developers.google.com/style "Link to Google Guide")
 - [Rackspace](https://developer.rackspace.com/docs/style-guide/ "Link to Rackspace Guide")
 - [ClickHelp](https://clickhelp.com/ "Link to ClickHelp")
-
-https://ocular-d.github.io/styleguide-editorial/
 
 ## Setup
 
