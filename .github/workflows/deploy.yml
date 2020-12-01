@@ -10,18 +10,26 @@ on:
   pull_request:
     branches:
       - main
-
-    paths:
-      - 'docs/**'
-
 jobs:
-  gh-deploy:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@master
-      - uses: testthedocs/github-pages-deploy-action@master
+      - name: Checkout code
+      - uses: actions/checkout@v1
+
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - run: yarn install
+      - run: yarn docs:build
+
+      - name: Deploy to netlify
+        uses: netlify/actions/cli@master
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          BUILD_DIR: "docs/.vuepress/dist"
-          BUILD_SCRIPT: yarn install && yarn docs:build
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        with:
+          args: deploy --dir=docs/.vuepress/dist --prod
+          secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
