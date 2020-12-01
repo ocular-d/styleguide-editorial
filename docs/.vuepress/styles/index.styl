@@ -16,7 +16,7 @@
     .custom-block-title
       color $textColor
     a
-      color $ocean
+      color $accentColor
   &.danger
     background-color $boxBgColor
     border-color $gazpacho
@@ -53,3 +53,16 @@ div[class*="language-"].line-numbers-mode .highlight-lines .highlighted:before {
 div[class*="language-"].line-numbers-mode::after {
   border-right: 1px solid rgba(255,255,255,0.3);
 }
+
+/* Fonts */
+body
+  font-family $secondaryFont !important
+
+h1, h2, h3, h4, h5, h6
+  font-family: $primaryFont, sans-serif
+
+h1, h2, h3
+  font-weight: 400 !important
+
+.nav-link, .repo-link , .nav-links .dropdown-title
+  font-weight 600 !important
