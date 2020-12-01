@@ -1,35 +1,40 @@
-name: deploy
+name: HTML Build - Linkcheck
 
 on:
   # Trigger the workflow on push or pull request,
-  # but only for the main branch
-  #push:
-  #  branches:
-  #    - main
-
+  # but only for the master branch
   push:
     branches:
       - main
+
+  pull_request:
+    branches:
+      - main
+
 jobs:
   deploy:
+    name: Checkout code
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-      - uses: actions/checkout@v1
+    - uses: actions/checkout@v1
 
-      - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14.x
-      - run: yarn install
-      - run: yarn docs:build
+    - name: Use Node.js 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+    - name: install
+      working-directory: .
+      run: yarn install
 
-      - name: Deploy to netlify
-        uses: netlify/actions/cli@master
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        with:
+    - name: build
+      working-directory: .
+      run: yarn docs:build
+
+    - name: Deploy to netlify
+      uses: netlify/actions/cli@master
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      with:
           args: deploy --dir=docs/.vuepress/dist --prod
           secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
