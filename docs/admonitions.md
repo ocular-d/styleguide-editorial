@@ -15,7 +15,8 @@ tags:
 ---
 
 :::tip Theory is at the end of the article
-Scroll to the end of the article if you want to know why we are giving these suggestions or just grab the quick tips.
+Check the [Theory](#theory) section at end of the article if you want to know why we are giving these suggestions
+or just grab the quick tips.
 :::
 
 ## Follow these recommendations
@@ -68,6 +69,7 @@ Admonitions stand out from the main body of text to capture the reader’s atten
 For their nature, they break the reading flow and are perceived as a distraction by readers.
 If they appear frequently, readers will think that they don't contain important information, so they will skip them.
 
-Additionally, [research indicates](https://www.nngroup.com/articles/how-users-read-on-the-web/ "How users read on the Web by Nielsen Norman Group") that readers tend to scan the content rapidly and only turn their attention when they spot something important.
+Additionally, [research indicates](https://www.nngroup.com/articles/how-users-read-on-the-web/ "How users read on the Web by Nielsen Norman Group") that readers tend to scan the content rapidly
+and only turn their attention when they spot something important.
 By giving a meaningful title to an admonition, you'll reduce the cognitive load and the task completion time
 by allowing readers to spot at a glance if they are interested in the admonition or not.
