@@ -15,7 +15,7 @@ tags:
 ---
 
 :::tip Theory is at the end of the article
-Check the [Theory](#theory) section at end of the article if you want to know why we are giving these suggestions
+Check the [Theory](#theory "Theory section of the article") section at end of the article if you want to know why we are giving these suggestions
 or just grab the quick tips.
 :::
 
