@@ -42,6 +42,7 @@ module.exports = {
         'periods',
         'pronouns-and-gender',
         'screenshots',
+        'cli',
         'text-style-formatting',
         'we',
       ]
