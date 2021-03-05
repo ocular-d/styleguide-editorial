@@ -20,11 +20,11 @@ tags:
 ## Use meaningful examples
 
 - Make sure example and placeholder text is always meaningful and matches real use cases
-- Avoid exposing real addresses or proprietary information through examples
+- Avoid exposing real data or proprietary information through examples
 
 **:thumbsup: Correct**
 
-user@domain.com
+michael.scott@dundermifflin.com
 
 **:thumbsdown: Don't use**
 
@@ -32,9 +32,9 @@ bobama@whitehouse.com
 
 handle@domain.tld
 
-## Format standard text as *italics*
+## Format examples and placeholders as *italics*
 
-Format example text and text the user is expected to replace or enter as *italics*.
+Format examples as *italics*, but also text that the user is expected to replace or enter.
 
 ## How to deal with sample code
 
@@ -44,12 +44,11 @@ For more information on how to deal with code using Markdown, see the [Markdown 
 
 #### Block-level code text
 
-When example text that the user is expected to replace occurs in code text, do the following:
+When example text that the user is expected to replace occurs in a block of code, do the following:
 
-- make it all caps
-- separate words with underscores
+- make it all caps. For example, *ACCOUNT*
+- separate words with underscores. For example, *ACCOUNT_ID*
 - Introduce the code sample you're about to show and explain what it allows to do
-- Describe the placeholder values in a unordered list, sorting them in the order they appear in the code block
 
 **:thumbsup: Correct**
 
