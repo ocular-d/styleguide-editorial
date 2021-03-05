@@ -93,6 +93,7 @@ For example, '*`ACCOUNT_ID`* is the email you registered with.
 For example *`you@acmecorp.com`*'
 - Leave original values all caps, but make examples follow the same capitalization expected by the system
 - If a value is cap sensitive, mention it
+- Even if the same value is in many code examples, list it every time to prevent readers from scrolling
 
 **:thumbsup: Correct**
 
