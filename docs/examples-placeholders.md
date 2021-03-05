@@ -19,41 +19,36 @@ tags:
 
 ## Use meaningful examples
 
-- Make sure example and placeholder text is always meaningful and matches real use cases
+- Make sure examples are meaningful and matches real use cases
 - Avoid exposing real data or proprietary information through examples
+- Format examples as *italics*, but also text that the user is expected to replace or enter
+- Introduce the examples you're about to show and explain what they allow to do
 
 **:thumbsup: Correct**
 
-michael.scott@dundermifflin.com
+*michael.scott@dundermifflin.com*
 
 **:thumbsdown: Don't use**
 
-bobama@whitehouse.com
+*bobama@whitehouse.com*
 
 handle@domain.tld
 
-## Format examples and placeholders as *italics*
+## When examples are code
 
-Format examples as *italics*, but also text that the user is expected to replace or enter.
-
-## How to deal with sample code
-
-::: warning Note
-For more information on how to deal with code using Markdown, see the [Markdown Styleguide](https://ocular-d.github.io/styleguide-markdown/code.html "Link to ocular-d Markdown Styleguide").
-:::
-
-#### Block-level code text
-
-When example text that the user is expected to replace occurs in a block of code, do the following:
+When examples that the user is expected to replace occurs in a block of code, do the following:
 
 - make it all caps. For example, *ACCOUNT*
+- Format it as *italics*
 - separate words with underscores. For example, *ACCOUNT_ID*
-- Introduce the code sample you're about to show and explain what it allows to do
-- Describe the placeholder values in a unordered list, sorting them in the order they appear in the code block
-- When the placeholder value is ambiguous, add an example.
-For example, '*ACCOUNT_ID* is the email you registered with.
-For example *you@acmecorp.com*'
-- When adding an example, 
+- Do not use other symbols like `$`, or `{}`
+- After the sample code, instruct the user to replace placeholder values
+
+:::warning Italics in code blocks
+Some markup languages, especially markdown, do not allow to apply special formatting inside code blocks. In that case, apply the allowed formatting, leaving special formatting for the replacement instructions.
+
+For more information on how to deal with code using Markdown, see the [Markdown Styleguide](https://ocular-d.github.io/styleguide-markdown/code.html "Link to ocular-d Markdown Styleguide").
+:::
 
 **:thumbsup: Correct**
 
@@ -64,7 +59,7 @@ import asyncio
 import aiohttp
 import json
 
-URL: myurl.com
+URL: MY_URL
 ACCOUNT: ACCOUNT_ID
 ```
 
@@ -82,22 +77,32 @@ import aiohttp
 import json
 
 URL: myurl.com
-ACCOUNT: ACCOUNT_ID
+ACCOUNT: $ACCOUNTID
 ```
 
-Replace these values:
+## Placeholder values
 
-- *`ACCOUNT_ID`* with the ID of your account
+When your example has special values that require clarification or replacement, explain them after they occur. This is especially useful for code examples.
 
-#### Inline-level code text
-
-- format it as *italics*
-- make it all caps
-- separate words with underscores
+- Introduce placeholders. You can use '*Replace these values:*'
+- When placeholders are several, use an unordered list
+- List them in the order they appear in the code example
+- When it's just one placeholder, use a full sentence. For example, 'Replace *`ACCOUNT_ID`* with your email address'
+- When a placeholder is ambiguous, add a meaningful example.
+For example, '*`ACCOUNT_ID`* is the email you registered with.
+For example *`you@acmecorp.com`*'
+- Leave original values all caps, but make examples follow the same capitalization expected by the system
+- If a value is cap sensitive, mention it
 
 **:thumbsup: Correct**
 
-*`ACCOUNT_ID`* is the ID of your account
+Replace *`ACCOUNT_ID`* with the ID of your account
+
+or
+
+Replace these values:
+- *`ACCOUNT_ID`* with the ID of your account
+- *`EMAIL_ADDRESS`* with your email address. For example michael.scott@dundermifflin.com
 
 **:thumbsdown: Don't use**
 
