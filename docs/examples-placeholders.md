@@ -38,14 +38,15 @@ handle@domain.tld
 
 When examples that the user is expected to replace occurs in a block of code, do the following:
 
-- make it all caps. For example, *ACCOUNT*
+- Make it all caps. For example, *ACCOUNT*
 - Format it as *italics*
-- separate words with underscores. For example, *ACCOUNT_ID*
+- Separate words with underscores. For example, *ACCOUNT_ID*
 - Do not use other symbols like `$`, or `{}`
 - After the sample code, instruct the user to replace placeholder values
 
 :::warning Italics in code blocks
-Some markup languages, especially markdown, do not allow to apply special formatting inside code blocks. In that case, apply the allowed formatting, leaving special formatting for the replacement instructions.
+Some markup languages, especially markdown, do not allow to apply special formatting inside code blocks.
+In that case, apply the allowed formatting, leaving special formatting for the replacement instructions.
 
 For more information on how to deal with code using Markdown, see the [Markdown Styleguide](https://ocular-d.github.io/styleguide-markdown/code.html "Link to ocular-d Markdown Styleguide").
 :::
@@ -82,7 +83,8 @@ ACCOUNT: $ACCOUNTID
 
 ## Placeholder values
 
-When your example has special values that require clarification or replacement, explain them after they occur. This is especially useful for code examples.
+When your example has special values that require clarification or replacement, explain them after they occur.
+This is especially useful for code examples.
 
 - Introduce placeholders. You can use '*Replace these values:*'
 - When placeholders are several, use an unordered list
