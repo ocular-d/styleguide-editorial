@@ -64,9 +64,9 @@ URL: myurl.com
 ACCOUNT: ACCOUNT_ID
 ```
 
-Where:
+Replace these values:
 
-- *`ACCOUNT_ID`* is the ID of your account
+- *`ACCOUNT_ID`* with the ID of your account
 
 **:thumbsdown: Don't use**
 
@@ -81,9 +81,9 @@ URL: myurl.com
 ACCOUNT: ACCOUNT_ID
 ```
 
-Where:
+Replace these values:
 
-- *`ACCOUNT_ID`* is the ID of your account
+- *`ACCOUNT_ID`* with the ID of your account
 
 #### Inline-level code text
 
