@@ -49,6 +49,11 @@ When example text that the user is expected to replace occurs in a block of code
 - make it all caps. For example, *ACCOUNT*
 - separate words with underscores. For example, *ACCOUNT_ID*
 - Introduce the code sample you're about to show and explain what it allows to do
+- Describe the placeholder values in a unordered list, sorting them in the order they appear in the code block
+- When the placeholder value is ambiguous, add an example.
+For example, '*ACCOUNT_ID* is the email you registered with.
+For example *you@acmecorp.com*'
+- When adding an example, 
 
 **:thumbsup: Correct**
 
@@ -71,7 +76,7 @@ Replace these values:
 
 1. Customize this code by replacing *`ACCOUNT_ID`* with the ID of your account and add it to `example.py`.
 
-```python
+```python{6}
 import asyncio
 import aiohttp
 import json
