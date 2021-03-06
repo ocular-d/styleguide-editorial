@@ -25,6 +25,8 @@ Check the [Alt Text section](./alt-text.md "Alt text section") for further info 
 
 With hyperlinks, make sure to write a brief but meaningful link text, using the title or a description of the page.
 
+<!-- markdown-link-check-disable -->
+
 **:thumbsup: Correct**
 
 To see the release notes, please go to the [Release Notes section](https://link.com "Release Notes Section").
@@ -32,6 +34,8 @@ To see the release notes, please go to the [Release Notes section](https://link.
 **:thumbsdown: Don't use**
 
 To see the release notes, click [here](https://link.com "Release Notes Section").
+
+<!-- markdown-link-check-enable -->
 
 ## Email Addresses
 

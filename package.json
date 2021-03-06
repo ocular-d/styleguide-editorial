@@ -6,7 +6,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:lint": "remark -qf --no-stdout docs/",
-    "docs:linkcheck": "find . -type f -name '*.md' ! -path './node_modules/*' ! -path './README.md' ! -path './.github/*' ! -path './CHANGELOG.md'| xargs -L1 markdown-link-check --quiet"
+    "docs:linkcheck": "find . -type f -name '*.md' ! -path './node_modules/*' ! -path './README.md' ! -path './.github/*' ! -path './CHANGELOG.md'| xargs -L1 markdown-link-check -c .mlc_config.json --quiet"
   },
   "repository": "git@github.com:ocular-d/styleguide-editorial.git",
   "author": "sven <sven@so36.net>",
