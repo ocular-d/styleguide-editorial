@@ -1,5 +1,5 @@
 ---
-title: Text style and formatting
+title: Use short and clear sentences
 description: Concise, clear sentences save space, are easy to understand, and facilitate scanning.
 meta:
   - name: "og:description"
