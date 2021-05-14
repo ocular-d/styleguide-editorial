@@ -5,14 +5,14 @@ name: Netlify Deploy
 on:
   # Trigger the workflow on push or pull request,
   # but only for the master branch
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
   pull_request:
+    types: [ closed ]
     branches:
       - main
-    types: [ closed ]
 
 jobs:
   deploy:
