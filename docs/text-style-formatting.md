@@ -88,3 +88,9 @@ Send a `GET` request.
 `GET` the data.
 
 GET the data.
+
+## Anchors
+
+- Introduce anchors with the hashtag symbol (#)
+- Spell anchors in lower caps
+- Replace spaces in anchors with an hyphen (-)
