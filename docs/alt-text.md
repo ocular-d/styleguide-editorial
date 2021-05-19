@@ -17,7 +17,7 @@ tags:
 
 ---
 
-[Alt text is an essential accessibility tool](https://aceseditors.org/news/2020/how-to-write-great-alt-text-and-why-it-matters) for users with visual impariments.
+[Alt text is an essential accessibility tool](https://aceseditors.org/news/2020/how-to-write-great-alt-text-and-why-it-matters) for users with visual impairments.
 It's a piece of text that explains the subject of an hyperlink or image so that screen readers can read it to users.
 
 It ensures that those readers get the same benefit from photos, charts, and other visuals that fully sighted readers get.
@@ -46,14 +46,12 @@ For example, don't mix "Article about $" with "Chapter about $"
 - Follow the capitalization of proper names. For example, write "iOS" not "iOs", "venv" not "VENV"
 - Use official names. If the website is called, "Acme Help" don't call it "Acme Support Center"
 - Use sentence case throughout the text unless the first word is a proper noun that is lower caps
-- Don't write "Home Page", just write "website". For example, "Acme website"
-- Introduce anchors with the hashtag symbol (#)
-- Spell anchors in lower caps
-- Replace spaces in anchors with an hyphen (-)
+- Don't write "Home Page", write "website". For example, "Acme website"
 
 ## Examples
 
-You can copy and paste these examples and just replace dummy names. This will ensure consistency.
+You can copy and paste these examples and replace placeholder names.
+This will ensure consistency.
 
 ### Links to your product's main website
 
