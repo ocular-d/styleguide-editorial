@@ -6,8 +6,6 @@
 
 ## About
 
-[Writing (Editorial) Style Guide](https://editorial.ocular-d.tech/)
-
 A guide to writing style and terminology based on
 
 - [Microsoft Style Guide](https://docs.microsoft.com/en-gb/style-guide/welcome/ "Link to MS Style Guide")
